@@ -53,7 +53,14 @@
       "scene": "startScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "es",
+    "pt",
+    "th",
+    "ar"
+  ],
   "endDialog": {
     "content": [
       {
@@ -393,7 +400,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-0"
+        "objectAddedInLayout": true
       },
       "tooltip": {
         "description": {
@@ -565,7 +572,7 @@
         {
           "stepId": "CloseAssetStoreForProjectile",
           "trigger": {
-            "presenceOfElement": "#object-item-1"
+            "objectAddedInLayout": true
           }
         }
       ]
@@ -581,7 +588,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-1"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "projectile": "sceneLastObjectName:playScene"
@@ -710,7 +717,7 @@
         {
           "stepId": "CloseAssetStoreForTarget",
           "trigger": {
-            "presenceOfElement": "#object-item-2"
+            "objectAddedInLayout": true
           }
         }
       ]
@@ -726,7 +733,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-2"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "target": "sceneLastObjectName:playScene"
@@ -854,7 +861,7 @@
         {
           "stepId": "CloseAssetStoreForBlock",
           "trigger": {
-            "presenceOfElement": "#object-item-3"
+            "objectAddedInLayout": true
           }
         }
       ]
@@ -870,7 +877,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-3"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "block": "sceneLastObjectName:playScene"
@@ -1746,7 +1753,7 @@
         {
           "stepId": "CloseAssetStoreForBackground",
           "trigger": {
-            "presenceOfElement": "#object-item-4"
+            "objectAddedInLayout": true
           }
         }
       ]
@@ -1762,7 +1769,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-4"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "background": "sceneLastObjectName:playScene"
@@ -2000,7 +2007,7 @@
         {
           "stepId": "CloseAssetStoreForObstacle",
           "trigger": {
-            "presenceOfElement": "#object-item-5"
+            "objectAddedInLayout": true
           }
         }
       ]
@@ -2016,7 +2023,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-5"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "obstacle": "sceneLastObjectName:playScene"
@@ -2874,7 +2881,7 @@
         {
           "stepId": "CloseAssetStoreForGrabArea",
           "trigger": {
-            "presenceOfElement": "#object-item-7"
+            "objectAddedInLayout": true
           }
         }
       ],
@@ -2891,7 +2898,7 @@
       "elementToHighlightId": "#add-asset-button",
       "isTriggerFlickering": true,
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-7"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "grabArea": "sceneLastObjectName:playScene"
@@ -3518,7 +3525,7 @@
     {
       "elementToHighlightId": "objectInObjectsList:background",
       "nextStepTrigger": {
-        "presenceOfElement": "#objects-list [id^=object-item][data-global=true]"
+        "presenceOfElement": "#objects-list [data-global=true]"
       },
       "tooltip": {
         "description": {
@@ -3830,7 +3837,7 @@
     {
       "elementToHighlightId": "objectInObjectsList:title",
       "nextStepTrigger": {
-        "presenceOfElement": "#scene-editor[data-active=true] #object-item-2"
+        "objectAddedInLayout": true
       },
       "tooltip": {
         "description": {

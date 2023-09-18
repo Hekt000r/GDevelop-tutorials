@@ -10,7 +10,14 @@
       "scene": "level"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "es",
+    "pt",
+    "th",
+    "ar"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/healthBar/game.json",
   "initialProjectData": {
     "level": "Level",
@@ -231,7 +238,7 @@
     {
       "elementToHighlightId": "#add-asset-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-8"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "resourceBar": "sceneLastObjectName:level"

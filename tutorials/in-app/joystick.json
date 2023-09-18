@@ -6,7 +6,14 @@
       "scene": "gameScene"
     }
   },
-  "availableLocales": ["en", "fr", "es", "pt", "th", "ar"],
+  "availableLocales": [
+    "en",
+    "fr",
+    "es",
+    "pt",
+    "th",
+    "ar"
+  ],
   "initialTemplateUrl": "https://resources.gdevelop-app.com/in-app-tutorials/templates/joystick/game.json",
   "initialProjectData": {
     "gameScene": "GameScene",
@@ -304,7 +311,7 @@
     {
       "elementToHighlightId": "#add-asset-button",
       "nextStepTrigger": {
-        "presenceOfElement": "#object-item-8"
+        "objectAddedInLayout": true
       },
       "mapProjectData": {
         "joystick": "sceneLastObjectName:level"
